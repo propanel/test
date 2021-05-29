@@ -981,7 +981,7 @@
             "overlayColor": "#1a416b",
             "overlayOpacity": "1"
           },
-          "text": "<div>PROPANEL Group&nbsp;\n</div><div>propanel.github.io&nbsp;\n</div><div>propanel.info@gmail.com&nbsp;</div>facebook.com/propanellms<br><div>\n</div><div>linkedin.com/company/propanel-group&nbsp;\n</div><div>Telegram: @propanellms</div><div><br></div>",
+          "text": "<div>PROPANEL Group&nbsp;\n</div><div>propanel.github.io/test&nbsp;\n</div><div>propanel.info@gmail.com&nbsp;</div>facebook.com/propanellms<br><div>\n</div><div>linkedin.com/company/propanel-group&nbsp;\n</div><div>Telegram: @propanellms</div><div><br></div>",
           "icons": " <a data-app-btn=\"true\" class=\"mbr-social-icons__icon socicon-bg-facebook text-primary\" title=\"Facebook\" target=\"_blank\" href=\"http://facebook.com/propanellms\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize\"><i class=\"socicon socicon-facebook\"></i></a>  <a data-app-btn=\"true\" class=\"mbr-social-icons__icon socicon-bg-youtube text-primary\" title=\"YouTube\" target=\"_blank\" href=\"https://www.youtube.com/channel/UCKOVsd0314fNbUpDBTcL8zA\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize\"><i class=\"socicon socicon-youtube\"></i></a>      <a data-app-btn=\"true\" class=\"mbr-social-icons__icon socicon-bg-linkedin text-primary\" title=\"LinkedIn\" target=\"_blank\" href=\"http://linkedin.com/company/propanel-group \" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize\"><i class=\"socicon socicon-linkedin\"></i></a> ",
           "_tags": [
             "Theme"
