@@ -21,7 +21,7 @@
 }
 #msg-box4-3k .mbr-article DIV {
   font-family: 'Roboto', sans-serif;
-  font-size: 15px;
+  font-size: 14px;
 }
 #msg-box4-3k .mbr-article B {
   font-size: 15px;
@@ -65,6 +65,7 @@
 }
 #msg-box4-3n .mbr-article DIV {
   text-align: left;
+  font-size: 15px;
 }
 #msg-box4-3n .mbr-article B {
   font-size: 15px;
@@ -93,7 +94,8 @@
   color: #1a416b;
 }
 #testimonials1-42 .mbr-reviews__text P {
-  font-size: 15px;
+  font-size: 14px;
+  text-align: left;
 }
 #msg-box3-3w .mbr-header .mbr-header__text {
   text-align: center;
