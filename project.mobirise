@@ -65,14 +65,18 @@
           "_styles": {
             ".mbr-header .mbr-header__text": {
               "text-align": "center",
-              "color": "#d2423a"
+              "color": "#d2423a",
+              "font-size": "60px"
             },
             ".mbr-header .mbr-header__subtext": {
               "text-align": "center",
               "color": "#fff"
             },
             ".mbr-article": {
-              "color": "#000000"
+              "color": "#d2423a"
+            },
+            ".mbr-article P": {
+              "font-size": "20px"
             }
           },
           "_params": {
@@ -81,10 +85,10 @@
             "showCaption": "noCaption",
             "showText": true,
             "showButton": false,
-            "paddingTop": "1",
-            "paddingBottom": "1",
+            "paddingTop": "3",
+            "paddingBottom": "4",
             "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/1589011446-1-900x562.jpeg",
+            "bgImage": "@PROJECT_PATH@/assets/images/screenshot-2-2-1219x572.jpeg",
             "parallax": false,
             "bgColorRadio": false,
             "bgColor": "#fff",

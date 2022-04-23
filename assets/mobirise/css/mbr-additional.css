@@ -8,13 +8,17 @@
 #content5-4c .mbr-header .mbr-header__text {
   text-align: center;
   color: #d2423a;
+  font-size: 60px;
 }
 #content5-4c .mbr-header .mbr-header__subtext {
   text-align: center;
   color: #fff;
 }
 #content5-4c .mbr-article {
-  color: #000000;
+  color: #d2423a;
+}
+#content5-4c .mbr-article P {
+  font-size: 20px;
 }
 #msg-box4-3k .mbr-header__text {
   color: #ffffff;
