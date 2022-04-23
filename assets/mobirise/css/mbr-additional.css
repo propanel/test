@@ -5,6 +5,17 @@
 
 
 
+#content5-4c .mbr-header .mbr-header__text {
+  text-align: center;
+  color: #d2423a;
+}
+#content5-4c .mbr-header .mbr-header__subtext {
+  text-align: center;
+  color: #fff;
+}
+#content5-4c .mbr-article {
+  color: #000000;
+}
 #msg-box4-3k .mbr-header__text {
   color: #ffffff;
 }
@@ -12,7 +23,7 @@
   color: #ffffff;
 }
 #msg-box4-3k .mbr-article {
-  color: #1a416b;
+  color: #1b416b;
 }
 #msg-box4-3k .mbr-article P {
   font-size: 15px;
