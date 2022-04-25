@@ -76,7 +76,8 @@
               "color": "#d2423a"
             },
             ".mbr-article P": {
-              "font-size": "20px"
+              "font-size": "25px",
+              "text-align": "center"
             }
           },
           "_params": {
@@ -102,7 +103,7 @@
             "overlayOpacity": "0.2"
           },
           "title": "STOP WAR!",
-          "text": "<p><b>WE HAVE DECIDED TO COMPLETELY STOP DEVELOPMENT OF THE PROJECT IN THE TERRITORIES</b> <b>OF THE RUSSIAN FEDERATION AND THE REPUBLIC OF BELARUS!</b></p>",
+          "text": "<p><b style=\"\">WE HAVE DECIDED TO COMPLETELY STOP DEVELOPMENT OF THE PROJECT IN THE TERRITORIES</b> <b style=\"\">OF THE RUSSIAN FEDERATION AND THE REPUBLIC OF BELARUS!</b></p>",
           "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">LEARN MORE</a>",
           "_tags": [
             "Theme"
