@@ -18,7 +18,7 @@
     },
     "versionFirst": "4.3.0",
     "uniqCompNum": 157,
-    "versionPublish": "5.6.5",
+    "versionPublish": "5.9.13",
     "favicon": false,
     "noImageResize": "",
     "html_before": "",
@@ -47,7 +47,7 @@
     "sitemapSwitcherAuto": false,
     "siteUrl": false,
     "gdpr": false,
-    "publishChangesOnly": false
+    "publishChangesOnly": true
   },
   "pages": {
     "index.html": {
@@ -61,56 +61,58 @@
       },
       "components": [
         {
-          "_inherit": "msg-box3",
           "_styles": {
-            ".mbr-header .mbr-header__text": {
-              "text-align": "center",
-              "color": "#d2423a",
-              "font-size": "60px"
+            ".mbr-brand__name": {
+              "font-size": "16px"
             },
-            ".mbr-header .mbr-header__subtext": {
-              "text-align": "center",
-              "color": "#fff"
+            "&.mbr-navbar--stuck .mbr-navbar__section": {
+              "background": "#1a416b"
             },
-            ".mbr-article": {
-              "color": "#d2423a"
-            },
-            ".mbr-article P": {
-              "font-size": "25px",
-              "text-align": "center"
+            ".mbr-navbar__section": {},
+            ".mbr-navbar__hamburger": {
+              "color": "#ffffff"
             }
           },
           "_params": {
-            "showTitle": true,
-            "showMeta": false,
-            "showCaption": "noCaption",
-            "showText": true,
-            "showButton": false,
-            "paddingTop": "3",
-            "paddingBottom": "4",
-            "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/screenshot-2-2-1219x572.jpeg",
-            "parallax": false,
-            "bgColorRadio": false,
-            "bgColor": "#fff",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "darkBackground": true,
-            "overlay": false,
-            "overlayColor": "#28324e",
-            "overlayOpacity": "0.2"
+            "logo": true,
+            "showBrand": false,
+            "showButtons": false,
+            "sticky": true,
+            "collapsed": false,
+            "transparent": true,
+            "color": "#1a416b",
+            "hamburgerColor": "#ffffff"
           },
-          "title": "STOP WAR!",
-          "text": "<p><b style=\"\">WE HAVE DECIDED TO COMPLETELY STOP DEVELOPMENT OF THE PROJECT IN THE TERRITORIES</b> <b style=\"\">OF THE RUSSIAN FEDERATION AND THE REPUBLIC OF BELARUS!</b></p>",
-          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">LEARN MORE</a>",
+          "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html#msg-box4-3m\">LMS-panel®</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html#msg-box4-3n\">ProPlatform®</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html#msg-box4-3t\">ProAs®</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html#testimonials1-42\">Benefits</a></li>  <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html#slider-44\">Photo</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html#msg-box3-3w\">Doc</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html#social-buttons2-39\">Contact</a></li>",
+          "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-default\" data-app-selector=\".mbr-navbar__items a\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">DOWNLOAD</a></li>",
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/propanel-2-577x128.png",
+              "class": "mbr-navbar__brand-img mbr-brand__img",
+              "height": 128,
+              "alt": "",
+              "link": "index.html#msg-box4-3k",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "linkInNewWindow": false,
+              "name": "user",
+              "family": "MobiriseIcons",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#b8312f"
+            }
+          },
+          "brand": "<a class=\"mbr-brand__name text-danger\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-selector=\".mbr-brand__name a\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">LMS-panel</a>",
           "_tags": [
             "Theme"
           ],
-          "meta": "By John Smith posted July 30, 2015",
-          "_name": "content5",
-          "_anchor": "content5-4c"
+          "_name": "menu",
+          "_anchor": "menu-3l",
+          "_sourceTheme": "default"
         },
         {
           "_inherit": "msg-box5",
@@ -194,7 +196,8 @@
           "headerAlign": "left",
           "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-link\" href=\"index.html#msg-box3-3w\" data-toolbar=\"-mbrBtnMove\"><span class=\"mobi-mbri mobi-mbri-pin mbr-iconfont mbr-iconfont-btn\" style=\"color: rgb(184, 49, 47);\"></span>PRESENTATION</a>  <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-link\" href=\"index.html#msg-box3-3w\" data-toolbar=\"-mbrBtnMove\"><span class=\"mobi-mbri mobi-mbri-touch mbr-iconfont mbr-iconfont-btn\" style=\"color: rgb(184, 49, 47);\"></span>WHITE PAPER</a>    ",
           "_name": "msg-box4",
-          "_anchor": "msg-box4-3k"
+          "_anchor": "msg-box4-3k",
+          "_sourceTheme": "default"
         },
         {
           "_inherit": "msg-box5",
@@ -274,7 +277,8 @@
           "headerAlign": "left",
           "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobiriz.store\">Подробнее</a>",
           "_name": "msg-box4",
-          "_anchor": "msg-box4-3m"
+          "_anchor": "msg-box4-3m",
+          "_sourceTheme": "default"
         },
         {
           "_inherit": "msg-box5",
@@ -351,7 +355,8 @@
           "meta": "",
           "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobiriz.store\" data-toolbar=\"-mbrBtnMove\">Подробнее&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</a>",
           "_name": "msg-box4",
-          "_anchor": "msg-box4-3n"
+          "_anchor": "msg-box4-3n",
+          "_sourceTheme": "default"
         },
         {
           "_inherit": "msg-box5",
@@ -427,7 +432,8 @@
           "meta": "",
           "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobiriz.store\" data-toolbar=\"-mbrBtnMove\">Подробнее&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</a>",
           "_name": "msg-box4",
-          "_anchor": "msg-box4-3t"
+          "_anchor": "msg-box4-3t",
+          "_sourceTheme": "default"
         },
         {
           "_params": {
@@ -574,7 +580,8 @@
               "font-size": "14px",
               "text-align": "left"
             }
-          }
+          },
+          "_sourceTheme": "default"
         },
         {
           "_afterNavbarItem": ".mbr-section > .mbr-box__magnet",
@@ -979,7 +986,8 @@
             "Theme"
           ],
           "_name": "slider",
-          "_anchor": "slider-44"
+          "_anchor": "slider-44",
+          "_sourceTheme": "default"
         },
         {
           "_styles": {
@@ -1020,7 +1028,8 @@
             "Theme"
           ],
           "_name": "msg-box3",
-          "_anchor": "msg-box3-3w"
+          "_anchor": "msg-box3-3w",
+          "_sourceTheme": "default"
         },
         {
           "_params": {
@@ -1054,60 +1063,8 @@
               "font-family": "'Open Sans Condensed', sans-serif",
               "googleLink": "https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700"
             }
-          }
-        },
-        {
-          "_styles": {
-            ".mbr-brand__name": {
-              "font-size": "16px"
-            },
-            "&.mbr-navbar--stuck .mbr-navbar__section": {
-              "background": "#1a416b"
-            },
-            ".mbr-navbar__section": {},
-            ".mbr-navbar__hamburger": {
-              "color": "#ffffff"
-            }
           },
-          "_params": {
-            "logo": true,
-            "showBrand": false,
-            "showButtons": false,
-            "sticky": true,
-            "collapsed": false,
-            "transparent": true,
-            "color": "#1a416b",
-            "hamburgerColor": "#ffffff"
-          },
-          "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html#msg-box4-3m\">LMS-panel®</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html#msg-box4-3n\">ProPlatform®</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html#msg-box4-3t\">ProAs®</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html#testimonials1-42\">Benefits</a></li>  <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html#slider-44\">Photo</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html#msg-box3-3w\">Doc</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html#social-buttons2-39\">Contact</a></li>",
-          "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-default\" data-app-selector=\".mbr-navbar__items a\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">DOWNLOAD</a></li>",
-          "logo": {
-            "image": {
-              "active": true,
-              "src": "@PROJECT_PATH@/assets/images/propanel-2-577x128.png",
-              "class": "mbr-navbar__brand-img mbr-brand__img",
-              "height": 128,
-              "alt": "",
-              "link": "index.html#msg-box4-3k",
-              "title": "",
-              "linkInNewWindow": false
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-menu",
-              "linkInNewWindow": false,
-              "name": "user",
-              "family": "MobiriseIcons",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "#b8312f"
-            }
-          },
-          "brand": "<a class=\"mbr-brand__name text-danger\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-selector=\".mbr-brand__name a\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">LMS-panel</a>",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "menu",
-          "_anchor": "menu-3l"
+          "_sourceTheme": "default"
         }
       ]
     },
@@ -1174,7 +1131,8 @@
             "Theme"
           ],
           "_name": "slider",
-          "_anchor": "slider-15"
+          "_anchor": "slider-15",
+          "_sourceTheme": "default"
         },
         {
           "_afterNavbarItem": ".mbr-section > .mbr-box__magnet",
@@ -1204,7 +1162,8 @@
             "Theme"
           ],
           "_name": "header1",
-          "_anchor": "header1-16"
+          "_anchor": "header1-16",
+          "_sourceTheme": "default"
         },
         {
           "_params": {
@@ -1232,7 +1191,8 @@
             "Theme"
           ],
           "_name": "image1",
-          "_anchor": "image1-17"
+          "_anchor": "image1-17",
+          "_sourceTheme": "default"
         },
         {
           "_inherit": "header1",
@@ -1263,7 +1223,8 @@
           ],
           "_afterNavbarItem": ".mbr-section > .mbr-box__magnet",
           "_name": "header2",
-          "_anchor": "header2-18"
+          "_anchor": "header2-18",
+          "_sourceTheme": "default"
         },
         {
           "_inherit": "header1",
@@ -1294,7 +1255,8 @@
           ],
           "_afterNavbarItem": ".mbr-section > .mbr-box__magnet",
           "_name": "header2",
-          "_anchor": "header2-1a"
+          "_anchor": "header2-1a",
+          "_sourceTheme": "default"
         },
         {
           "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"https://mobirise.com/mobirise-free-win.zip\" data-toolbar=\"-mbrBtnMove\">DOWNLOAD FOR WIN</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"https://mobirise.com/mobirise-free-win.zip\" data-toolbar=\"-mbrBtnMove\">DOWNLOAD FOR WIN</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com/mobirise-free-mac.zip\">DOWNLOAD FOR MAC</a>",
@@ -1302,7 +1264,8 @@
             "Theme"
           ],
           "_name": "buttons1",
-          "_anchor": "buttons1-1b"
+          "_anchor": "buttons1-1b",
+          "_sourceTheme": "default"
         },
         {
           "_afterNavbarItem": ".mbr-section > .mbr-box__magnet",
@@ -1354,7 +1317,8 @@
             "Theme"
           ],
           "_name": "slider",
-          "_anchor": "slider-1c"
+          "_anchor": "slider-1c",
+          "_sourceTheme": "default"
         },
         {
           "_inherit": "gallery1",
@@ -1440,7 +1404,8 @@
             "Theme"
           ],
           "_name": "gallery2",
-          "_anchor": "gallery2-1d"
+          "_anchor": "gallery2-1d",
+          "_sourceTheme": "default"
         },
         {
           "_styles": {},
@@ -1465,7 +1430,8 @@
             "Theme"
           ],
           "_name": "video1",
-          "_anchor": "video1-1w"
+          "_anchor": "video1-1w",
+          "_sourceTheme": "default"
         },
         {
           "_styles": {
@@ -1506,7 +1472,8 @@
             "Theme"
           ],
           "_name": "msg-box3",
-          "_anchor": "msg-box3-1f"
+          "_anchor": "msg-box3-1f",
+          "_sourceTheme": "default"
         },
         {
           "_params": {
@@ -1564,7 +1531,8 @@
               "text": "<p class=\"mbr-reviews__p\">“At first view, looks like a nice innovative tool, i like the great focus and time that was given to the responsive design, i also like the simple and clear drag and drop features. Give me more control over the object's properties and ill be using this tool for more serious projects. Regards.”</p>"
             }
           ],
-          "_anchor": "testimonials1-1g"
+          "_anchor": "testimonials1-1g",
+          "_sourceTheme": "default"
         },
         {
           "_params": {
@@ -1598,7 +1566,8 @@
             "Theme"
           ],
           "_name": "form2",
-          "_anchor": "form2-1i"
+          "_anchor": "form2-1i",
+          "_sourceTheme": "default"
         },
         {
           "_inherit": "msg-box1",
@@ -1636,7 +1605,8 @@
             "Theme"
           ],
           "_name": "msg-box2",
-          "_anchor": "msg-box2-1k"
+          "_anchor": "msg-box2-1k",
+          "_sourceTheme": "default"
         },
         {
           "_params": {
@@ -1661,7 +1631,8 @@
             "Theme"
           ],
           "_name": "social-buttons1",
-          "_anchor": "social-buttons1-1l"
+          "_anchor": "social-buttons1-1l",
+          "_sourceTheme": "default"
         },
         {
           "_params": {
@@ -1687,7 +1658,8 @@
               "color": "#e25041"
             }
           },
-          "_anchor": "social-buttons2-1m"
+          "_anchor": "social-buttons2-1m",
+          "_sourceTheme": "default"
         },
         {
           "_params": {
@@ -1730,7 +1702,8 @@
             "Theme"
           ],
           "_name": "contacts1",
-          "_anchor": "contacts1-1n"
+          "_anchor": "contacts1-1n",
+          "_sourceTheme": "default"
         },
         {
           "_params": {
@@ -1780,7 +1753,8 @@
             "Theme"
           ],
           "_name": "contacts3",
-          "_anchor": "contacts3-1o"
+          "_anchor": "contacts3-1o",
+          "_sourceTheme": "default"
         },
         {
           "_styles": {
@@ -1817,7 +1791,8 @@
             "Theme"
           ],
           "_name": "msg-box1",
-          "_anchor": "msg-box1-1q"
+          "_anchor": "msg-box1-1q",
+          "_sourceTheme": "default"
         },
         {
           "_params": {
@@ -1831,7 +1806,8 @@
             "Theme"
           ],
           "_name": "map1",
-          "_anchor": "map1-1r"
+          "_anchor": "map1-1r",
+          "_sourceTheme": "default"
         },
         {
           "_params": {
@@ -1889,7 +1865,8 @@
               "text": "<p class=\"mbr-reviews__p\">“At first view, looks like a nice innovative tool, i like the great focus and time that was given to the responsive design, i also like the simple and clear drag and drop features. Give me more control over the object's properties and ill be using this tool for more serious projects. Regards.”</p>"
             }
           ],
-          "_anchor": "testimonials1-1s"
+          "_anchor": "testimonials1-1s",
+          "_sourceTheme": "default"
         },
         {
           "_styles": {
@@ -1930,7 +1907,8 @@
             "Theme"
           ],
           "_name": "msg-box3",
-          "_anchor": "msg-box3-1t"
+          "_anchor": "msg-box3-1t",
+          "_sourceTheme": "default"
         },
         {
           "_inherit": "msg-box1",
@@ -1968,7 +1946,8 @@
             "Theme"
           ],
           "_name": "msg-box2",
-          "_anchor": "msg-box2-1u"
+          "_anchor": "msg-box2-1u",
+          "_sourceTheme": "default"
         },
         {
           "_inherit": "features1",
@@ -2122,7 +2101,8 @@
           "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
           "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\">LEARN MORE</a>",
           "_name": "content4",
-          "_anchor": "content4-1v"
+          "_anchor": "content4-1v",
+          "_sourceTheme": "default"
         }
       ]
     }
